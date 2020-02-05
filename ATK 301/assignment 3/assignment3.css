@@ -1,0 +1,65 @@
+h1 {
+  color: blue;
+  background-color:#E9F687;
+}
+
+#mainspecialid {
+  color: #761BDE;
+  background-color: #F06AC3;
+}
+
+.mainspecialclass {
+  color: #B70E7F;
+  background-color: #76B3E9;
+}
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+#divexample {
+  color: #443399;
+  background-color: #BEB4F3;
+}
+
+footer {
+  color: #16785E;
+  background-color: #A4D5C8;
+}
+
+.spanexample {
+  color: #86C610;
+  background-color: #F3CFAF;
+}
+
+#firstlistid {
+  color: #B62006;
+}
+
+#secondlistid {
+  color: #098013;
+}
+
+#thirdlistid {
+  color: #190980;
+}
+
+.classpg2 {
+  background-color: #C0B9F3;
+}
+
+main {
+  background-color: #B9D6F3;
+}
+
+nav {
+  background-color: #EAB9F3;
+}
