@@ -1,0 +1,45 @@
+h1 {
+  color: white;
+}
+
+main {
+  background-color: #6CA5DE;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+ a:hover {
+   color: red;
+   text-decoration: underline;
+ }
+
+ h2 {
+   color: blue;
+ }
+
+#doctorspan {
+  color: yellow;
+}
+
+h3{
+  background-color: yellow;
+}
+
+#taxi {
+  color:red;
+}
+
+h4 {
+  color: yellow;
+  background-color: green;
+}
+
+#art {
+  background-color: #A5DE6C;
+}
+
+h5 {
+  color: purple;
+}
