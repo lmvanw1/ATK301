@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify
+}
+
+.header {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.image {
+  border: 20px solid #000000;
+  padding: 10px;
+}
+
+body {
+  background-image: url(wiz.jpg)
+}
