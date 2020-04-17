@@ -2,7 +2,7 @@ background-color: white;
 
 body {
   background-color: #999999;
-  font-family: arial, sans-serif;
+
 }
 
 #wrapper {
@@ -14,6 +14,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
+  align-items: baseline;
 }
 
 header {
@@ -30,33 +31,41 @@ header {
 
 h1{
   font-weight: normal;
+  font-family: 'railway', sans-serif;
 }
 
 nav {
   grid-column: span 6;
   font-weight: lighter;
 }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 nav li {
+    display: inline-block;
   border: 1px solid #f1acca;
-  padding: 0;
-  margin: 0;
+  padding: 10px 25px 10px 5px;
+  margin: 10px;
   background-color: #f1acca;
   color: #ffffff;
   font-style: italic;
   font-weight: lighter;
+  font-family: 'railway', sans-serif;
 }
 
 nav li a {
+    display: block;
   color: #ffffff;
-  padding: 3px 10px 3px 10px;
+  padding: 1px 10px 2px 1px;
   border: 1px solid #f1acca;
   background-color: #f1acca;
-  display: block;
-
-  margin: 0 10px 0 10px;
+  margin: 1px 10px 1px 10px;
   text-decoration: none;
   font-weight: lighter;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
 }
 
 nav li a:hover {
@@ -66,24 +75,19 @@ nav li a:hover {
 main {
   grid-column: span 12;
   font-style: italic;
+  font-family: 'railway', sans-serif;
 }
 
 footer {
   grid-column: span 12;
   font-style: italic;
+  font-family: 'railway', sans-serif;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-nav li {
-  display: inline-block;
-  padding: 10px;
-  border: 1px solid #000000;
-  margin: 10px;
+h2 a{
+  color: #bc2564;
+  font-weight: normal;
 }
 
 #bio {
@@ -113,12 +117,8 @@ nav li {
   background-color: #f2cddd;
   border: 5px dotted #f1acca;
   color: #bc2564;
-  image:image(images/cat.png);
 }
 
-#proone {
-padding: 175px 0 0 0;
-}
 
 footer {
   border: 1px solid #f1acca;
@@ -126,5 +126,32 @@ footer {
   font-style: italic;
   text-align: right;
   background-color: #f1acca;
-  padding: 0 10px 0 0;
+  padding-right: 10px;
+}
+
+footer a{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  transition: background-color 1.0s, width 2.0s, color 0.5s;
+  padding-bottom: 3px;
+}
+
+footer a:hover {
+  color: #bc2564;
+}
+
+.dropshadowbox {
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #f1acca; /* x, y, blur, color */
+}
+.textshadowbox {
+  color: white;
+  text-shadow: 2px 2px 2px #bc2564; /* x, y, blur, color */
+}
+
+.textshadowbox2 {
+  color: #bc2564;
+  text-shadow: 2px 2px 2px #f1acca;
 }
