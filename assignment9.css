@@ -47,7 +47,7 @@ nav ul {
 nav li {
     display: inline-block;
   border: 1px solid #f1acca;
-  padding: 10px 25px 10px 5px;
+
   margin: 10px;
   background-color: #f1acca;
   color: #ffffff;
@@ -59,10 +59,10 @@ nav li {
 nav li a {
     display: block;
   color: #ffffff;
-  padding: 1px 10px 2px 1px;
+  padding: 10px 35px 10px 10px;
   border: 1px solid #f1acca;
   background-color: #f1acca;
-  margin: 1px 10px 1px 10px;
+
   text-decoration: none;
   font-weight: lighter;
   transition: background-color 1.0s, width 2.0s, color 2.0s;
