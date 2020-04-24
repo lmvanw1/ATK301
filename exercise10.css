@@ -1,0 +1,157 @@
+background-color: white;
+
+body {
+  background-color: #999999;
+
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid #F1ACCA;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  align-items: baseline;
+}
+
+header {
+  grid-column: span 6;
+  border: 1px solid #F1ACCA;
+  background: #F1ACCA;
+  color: white;
+  padding-left: 10px;
+  padding-top: 25px;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1{
+  font-weight: normal;
+  font-family: 'railway', sans-serif;
+}
+
+nav {
+  grid-column: span 6;
+  font-weight: lighter;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+    display: inline-block;
+  border: 1px solid #f1acca;
+
+  margin: 10px;
+  background-color: #f1acca;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'railway', sans-serif;
+}
+
+nav li a {
+    display: block;
+  color: #ffffff;
+  padding: 10px 35px 10px 10px;
+  border: 1px solid #f1acca;
+  background-color: #f1acca;
+
+  text-decoration: none;
+  font-weight: lighter;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+nav li a:hover {
+  background-color: #BC2564;
+}
+
+main {
+  grid-column: span 12;
+  font-style: italic;
+  font-family: 'railway', sans-serif;
+}
+
+footer {
+  grid-column: span 12;
+  font-style: italic;
+  font-family: 'railway', sans-serif;
+}
+
+
+h2 a{
+  color: #bc2564;
+  font-weight: normal;
+}
+
+#bio {
+  border: 1px solid #f1acca;
+  padding: 0 20px 20px 20px;
+  margin: 50px 400px 50px 300px;
+  background-color: #F2CDDD;
+  border: 5px dotted #f1acca;
+  color: #BC2564;
+}
+
+#about {
+  font-style: italic;
+  border-bottom: 2px solid #C95485;
+  font-weight: lighter;
+  font-size: 20;
+}
+
+#biowords{
+  font-size: 15px;
+}
+
+#project {
+  border: 1px solid #f1acca;
+  padding: 0 20px 20px 20px;
+  margin: 50px 400px 50px 300px;
+  background-color: #f2cddd;
+  border: 5px dotted #f1acca;
+  color: #bc2564;
+}
+
+
+footer {
+  border: 1px solid #f1acca;
+  color: white;
+  font-style: italic;
+  text-align: right;
+  background-color: #f1acca;
+  padding-right: 10px;
+}
+
+footer a{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  transition: background-color 1.0s, width 2.0s, color 0.5s;
+  padding-bottom: 3px;
+}
+
+footer a:hover {
+  color: #bc2564;
+}
+
+.dropshadowbox {
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #f1acca; /* x, y, blur, color */
+}
+.textshadowbox {
+  color: white;
+  text-shadow: 2px 2px 2px #bc2564; /* x, y, blur, color */
+}
+
+.textshadowbox2 {
+  color: #bc2564;
+  text-shadow: 2px 2px 2px #f1acca;
+}
