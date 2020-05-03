@@ -99,6 +99,7 @@ h3 {
 
 img {
   opacity: .7;
+  transition: opacity 1.0s;
 }
 
 img:hover{
