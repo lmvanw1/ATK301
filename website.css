@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  color: white;
+  margin:1em auto;
+  background-image: url(mermaid.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top 200px center;
+  font-family: 'Tajawal', sans-serif;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  letter-spacing: 10px;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 25px 20px 5px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#icons {
+  display: inline-block;
+  grid-column: span 12;
+  text-align: center;
+  letter-spacing:5px;
+  font-size: 20px;
+}
+
+div #icons a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  grid-column: span 12;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  border: 1px solid black;
+  grid-column: span 12;
+  padding: 10px;
+  margin: 0 50px 0 50px;
+}
+
+nav li a {
+  color: #c9c9c9;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+  transition: color .5s;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+
+main {
+  text-align: center;
+  grid-column: span 12;
+  background-color: black;
+  margin-top: 400px;
+}
+
+h2 {
+font-size: 45px;
+}
+
+#gt {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+img {
+  opacity: .7;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+footer {
+  grid-column: span 12;
+  margin: 1em auto;
+}
