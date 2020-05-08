@@ -2,10 +2,6 @@ body {
   background-color: black;
   color: white;
   margin:1em auto;
-  background-image: url(mermaid.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top 200px center;
   font-family: 'Tajawal', sans-serif;
 }
 
@@ -74,36 +70,20 @@ nav li a:hover {
   color: white;
 }
 
-
 main {
-  text-align: center;
-  grid-column: span 12;
-  background-color: black;
-  margin-top: 400px;
+  grid-column: span 11;
 }
 
-h2 {
-font-size: 45px;
+#bio {
+margin-top: 10px;
+margin-right: 100px;
+font-size: 18px;
+line-height: 45px;
 }
 
-#gt {
-  font-size: 23px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  color: white;
-}
-
-img {
-  opacity: .7;
-  transition: opacity 1.0s;
-}
-
-img:hover{
-  opacity: 1;
+.float {
+  margin: 15px 80px 20px 120px;
+float: left;
 }
 
 footer {
